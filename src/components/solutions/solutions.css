@@ -1,0 +1,30 @@
+.solutions{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.solution__card{
+  text-align: center;
+  margin-top: 2rem;
+  border: 0.2px solid var(--color-CTA);
+  border-radius: 0.2rem;
+  /* padding: 1rem 0; */
+  transition: var(--transition);
+}
+
+.solution__card h3{
+  color: var(--color-CTA);
+}
+
+.solution__card:hover{
+  background: var(--color-CTA);
+}
+
+.solution__card h3:hover{
+  color: var(--color-bg);
+}
+
+.solutions__container h1{
+  margin-bottom: 2rem;
+}

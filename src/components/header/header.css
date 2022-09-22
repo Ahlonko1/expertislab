@@ -1,0 +1,47 @@
+header{
+  height: 100vh;
+  padding-top: 10rem;
+  overflow: hidden;
+}
+
+.header__container{
+  text-align: left;
+  height: 100%;
+  position: relative;
+}
+
+.header__container h3{
+  color: var(--color-CTA);
+  font-weight: 100;
+}
+
+.cta{
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta a{
+  color: var(--color-CTA-hover);
+}
+
+.arrow{
+  text-align: center;
+}
+.arrow {
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+  60% {
+    transform: translateY(10px);
+  }
+}
