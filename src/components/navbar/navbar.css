@@ -14,6 +14,7 @@ navbar .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
 navbar button{
@@ -23,12 +24,11 @@ navbar button{
 navbar .container ul{
   display: flex;
   height: 100%;
-  gap: 2rem;
 }
 
 navbar .container ul li a{
   height: 100%;
-  width: auto;
+  width: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,6 +40,11 @@ navbar .container ul li a{
 navbar .container ul li a:hover{
   color: var(--color-CTA);
 }
+
+navbar .container ul li a.active{
+  color: var(--color-CTA);
+}
+
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 
@@ -61,14 +66,17 @@ navbar .container ul li a:hover{
   }
 
   h5{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
+  }
+  navbar a{
+    margin-left: 1rem;
   }
 
   navbar .container{
     width: 100%;
   }
 
-  navbar ul{
+  navbar .container ul{
     position: fixed;
     top:0;
     flex-direction: column;
@@ -105,4 +113,7 @@ navbar .container ul li a:hover{
   navbar button#close-btn{
     display: none;
   }
+
+
+
 }
