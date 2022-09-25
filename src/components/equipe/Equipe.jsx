@@ -1,5 +1,6 @@
 import React from 'react'
 import "./equipe.css";
+import NICO from "../../assets/Nico.jpg"
 
 const Equipe = () => {
   return (
@@ -16,6 +17,9 @@ const Equipe = () => {
             <h3>EXPERT JUDICIAIRE</h3>
           </article>
           <article className='equipe__card'>
+            <div className='photo'>
+              <img src={NICO} alt="photo" />
+            </div>
             <h2>Nicolas GONIN</h2>
             <h3>EXPERT</h3>
           </article>

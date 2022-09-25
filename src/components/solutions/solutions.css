@@ -28,3 +28,22 @@
 .solutions__container h1{
   margin-bottom: 2rem;
 }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  .solutions{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .solution__card{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}

@@ -18,3 +18,21 @@
 .equipe__container h3{
   color: var(--color-writing2);
 }
+
+.photo{
+  border-radius: 12rem 12rem 0 0;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  .equipe{
+  display: grid;
+  grid-template-columns: 1fr ;
+  gap: 2rem;
+}
+}

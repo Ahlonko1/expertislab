@@ -40,7 +40,7 @@ import {AiOutlineClose} from "react-icons/ai";
 const Navbar = () => {
   return (
     <navbar>
-      <div className='container'>
+      <div className='container2'>
         <a href="#"><h1>LOGO</h1></a>
           <ul>
             <li><a href="#" className='active'></a></li>

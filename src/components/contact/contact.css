@@ -40,3 +40,24 @@ textarea{
 .info-icon{
   color: var(--color-CTA-hover);
 }
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  .contact__container{
+    width: var(--container-width-sm);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact__infos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
