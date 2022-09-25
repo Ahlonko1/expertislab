@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <navbar>
       <div className='container2'>
-        <a href="#"><h1>LOGO</h1></a>
+        <a href="#"><h1>Expertis<i>LAB</i></h1></a>
           <ul>
             <li><a href="#" className='active'></a></li>
             <li><a href="#presentation">QUI SOMMES-NOUS</a></li>
