@@ -1,7 +1,7 @@
 navbar{
   width: 100%;
   height: 5rem;
-  background: var(--color-bg);
+  background: var(--color-white);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,6 +45,8 @@ navbar .container2 ul li a.active{
   color: var(--color-CTA);
 }
 
+navbar .container2 img {
+}
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 

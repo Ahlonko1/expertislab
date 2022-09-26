@@ -11,13 +11,16 @@
 }
 
 :root{
-  --color-bg:#001023;
+  --color-bg--old:#001023;
+  --color-bg:#0B1B32;
   --color-bg-variant:#142D4B;
   --color-CTA:#2FD5AB;
   --color-CTA-hover:#F9D675;
-  --color-writing:#7491AF;
-  --color-writing2: rgba(255, 255, 255, 0.6);
-  --color-white:#FFFFFF;
+  --color-writing-old:#7491AF;
+  --color-writing:#0B62FF;
+  --color-writing2-old: rgba(255, 255, 255, 0.6);
+  --color-writing2:#E5E5E5;
+  --color-white:#F2F2F2;
   --color-darkblue:#031A34;
 
   --transition: all 400ms ease;

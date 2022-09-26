@@ -2,6 +2,7 @@ import React from 'react';
 import "./navbar.css";
 import {AiOutlineMenu} from "react-icons/ai";
 import {AiOutlineClose} from "react-icons/ai";
+import Logo from "../../assets/logowhite.jpg"
 
 // const menuBtn = document.querySelector("#menu-btn")
 // const closeBtn = document.querySelector("#close-btn")
@@ -41,7 +42,7 @@ const Navbar = () => {
   return (
     <navbar>
       <div className='container2'>
-        <a href="#"><h1>Expertis<i>LAB</i></h1></a>
+        <img src={Logo} alt="" />
           <ul>
             <li><a href="#" className='active'></a></li>
             <li><a href="#presentation">QUI SOMMES-NOUS</a></li>

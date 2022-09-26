@@ -33,7 +33,7 @@ const Constat = () => {
           <h5>A l’issu des opérations de constat, l’ensemble des opérations techniques est systématiquement détaillé dans une note technique d’intervention et nous réalisons un inventaire dynamique facilitant l’accès et l’analyse des pièces saisies ou séquestrées.</h5>
         </div>
 
-        <div className='enjeu__card'>
+        <div className='enjeu__card2'>
           <h3>Maîtriser vos coûts</h3>
           <h5>Toutes nos prestations d’accompagnement se font sur la base d’une étude détaillée de l’ordonnance rendue par les magistrats. Dans une volonté de transparence envers vous et vos clients nous proposons une estimation du temps et des frais que nous pensons affecter à l’exécution de notre mission.</h5>
         </div>

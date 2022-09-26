@@ -16,25 +16,25 @@ const Expertise = () => {
       <div className='expertise__enjeux'>
 
         <div className='enjeu__card'>
-          <h3>Vérifier la conformité de votre dispositif.</h3>
+          <h3>Vérifier la conformité de votre dispositif</h3>
           <h5>Nous réalisons des expertises indépendantes de dispositifs de vote, conformément aux préconisations de la CNIL (Recommandation n° 2019-053 du 25 avril 2019) afin de vérifier la conformité de vos dispositifs aux exigences juridiques, techniques et de sécurité.</h5>
         </div>
         <div className='enjeu__card'>
-          <h3>Respecter vos délais et votre calendrier électoral.</h3>
+          <h3>Respecter vos délais et votre calendrier électoral</h3>
           <h5>Nous procédons à nos travaux d’expertise et de rédaction du rapport en collaboration avec vos équipes en charge du scrutin afin de nous inscrire dans votre calendrier électoral.
           Nos expertises sont menées directement auprès de vos prestataires de vote à la suite de vos travaux de paramétrage. Nos équipes s’occupent de tout pour vous et restent à votre disposition durant le processus d’expertise.</h5>
         </div>
         <div className='enjeu__card'>
-          <h3>Apprécier la robustesse de votre système de vote.</h3>
+          <h3>Apprécier la robustesse de votre système de vote</h3>
           <h5>Nous pouvons procéder à des tests de vulnérabilité (type OWASP) et d’intrusions spécifiques afin de contrôler la résistance de vos dispositifs de vote aux tentatives d’intrusions extérieures.</h5>
         </div>
         <div className='enjeu__card'>
-          <h3>Limiter les risques de recours et d’annulation.</h3>
+          <h3>Limiter les risques de recours et d’annulation</h3>
           <h5>Nos années d’expérience et la connaissances de la jurisprudence permettent à nos experts de vous accompagner durant tout votre processus électoral.
           Depuis les réflexions à mener en amont des élections (parcours d’authentification, procédure de réassort et code Défi) jusqu’à la gestion des aléas et leurs conséquences pouvant survenir en cours de vote.</h5>
         </div>
-        <div className='enjeu__card'>
-            <h3>Fédérer autour de votre système de vote.</h3>
+        <div className='enjeu__card2'>
+            <h3>Fédérer autour de votre système de vote</h3>
             <h5>Nos travaux d’expertise permettent aux organisateurs de scrutin de fédérer autour de la solution de vote dématérialisée et d’instaurer un climat de confiance entre toutes les parties prenantes (organisation syndicales, Ressources Humaines, Direction des systèmes d’informations…).</h5>
         </div>
       </div>

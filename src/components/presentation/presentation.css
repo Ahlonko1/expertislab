@@ -9,7 +9,7 @@
 }
 
 .valeur__card{
-  background: var(--color-bg-variant);
+  background: var(--color-writing);
   border: 1px solid transparent;
   border-radius: 0.3rem;
   padding: 1.1rem;
@@ -22,16 +22,18 @@ margin-bottom: 0.5rem;
 }
 
 .check{
-  color: var(--color-CTA);
+  color: var(--color-writing);
 }
 
 .presentation__container h2{
   margin-top: 2rem;
   margin-bottom:2rem ;
+  color: var(--color-CTA);
 }
 
 .valeur__card h4{
-  color: white;
+  color: var(--color-bg);
+  font-weight: 500;
 }
 
 .valeur__card h5{

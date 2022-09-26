@@ -31,7 +31,7 @@ const Conseil = () => {
           <h5>Tout projet informatique, qu’il ait pour but le développement d’une nouvelle solution, l’intégration d’une solution dans un système d’information, le décommissionnement d’une solution ou bien la migration d’une solution à une autre implique des contrats, des ressources, des prérequis, des exigences et des livrables. Durant tout le cycle de vie du projet, les organisations s’exposent au risque d’émergence de contentieux et si celui-ci se matérialise il convient de se préparer rigoureusement au recours judiciaire. EXPERTIS Lab, vous accompagne dans la gestion de ces risques et la mise en place de votre stratégie. Nos experts peuvent, par exmple, évaluer la qualité d’un livrable par rapport à son expression de besoin et au cahier des charges, les conditions de réversibilité et son exécution ou encore l’inadéquation d’une solution et ses dysfonctionnements.</h5>
         </div>
 
-        <div className='enjeu__card'>
+        <div className='enjeu__card2'>
           <h3>Être accompagné lors d’une procédure d’expertise judiciaire</h3>
           <h5>L’expertise judiciaire, réalisée à la demande d’un tribunal jugeant un dossier trop complexe en l’état, fait intervenir un expert indépendant nommé pour l’éclairer sur un contentieux en cours. Expertis Lab, fort de l’expérience acquise lors de la réalisation d’expertises judiciaires par l’intermédiaire de son gérant Bruce Bonnaure, expert près les tribunaux, propose un accompagnement sur mesure aux organisations et/ou avocats afin d’éclairer l’Expert nommé par les tribunaux sur les rôles et responsabilités des parties.</h5>
         </div>

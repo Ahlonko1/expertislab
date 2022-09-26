@@ -1,5 +1,5 @@
 footer{
-  background: var(--color-darkblue);
+  background: var(--color-writing);
   padding: 3rem 0;
 }
 
@@ -13,6 +13,7 @@ footer a{
 
 .footer__copyright{
   text-align: center;
+  color: var(--color-bg);
 }
 
 .footer__autres{

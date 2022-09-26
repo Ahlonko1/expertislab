@@ -2,14 +2,12 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  text-align: justify;
   margin-top: 2rem;
 }
 
 .conseil__enjeux{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  text-align: justify;
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -22,7 +20,6 @@
 .enjeu__card{
   border-right: 1px solid;
   padding-right: 1rem;
-  border-radius: 1rem;
 }
 
 .accompagnement__card{
@@ -46,8 +43,9 @@
   font-size: larger;
 }
 
-.conseil__faq{
-  border-top: 2rem;
+.conseil__faq h3{
+  color: var(--color-CTA);
+  margin-top: 2rem;
 }
 
 .faq__item{

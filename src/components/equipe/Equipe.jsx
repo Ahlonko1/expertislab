@@ -1,5 +1,6 @@
 import React from 'react'
 import "./equipe.css";
+import {HiOutlineArrowNarrowRight} from "react-icons/hi";
 import NICO from "../../assets/Nico.jpg"
 
 const Equipe = () => {
@@ -11,10 +12,12 @@ const Equipe = () => {
           <article className='equipe__card'>
             <h2>Benjamin BAUCHET</h2>
             <h3>EXPERT</h3>
+            <h5><HiOutlineArrowNarrowRight/> fiche contact</h5>
           </article>
           <article className='equipe__card'>
             <h2>Bruce BONNAURE</h2>
             <h3>EXPERT JUDICIAIRE</h3>
+            <h5><HiOutlineArrowNarrowRight/> fiche contact</h5>
           </article>
           <article className='equipe__card'>
             <div className='photo'>
@@ -22,6 +25,7 @@ const Equipe = () => {
             </div>
             <h2>Nicolas GONIN</h2>
             <h3>EXPERT</h3>
+            <h5><HiOutlineArrowNarrowRight/> fiche contact</h5>
           </article>
         </div>
       </div>
