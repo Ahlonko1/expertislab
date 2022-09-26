@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <div className='container2'>
-        <a href="#" className='footer__logo'><h1>Expertisi<i>LAB</i></h1></a>
+        <a href="#" className='footer__logo'><h1>Expertis<i>LAB</i></h1></a>
 
         <div className="footer__copyright">
           <small>&copy; Expertis Lab | Tous droits réservés</small>

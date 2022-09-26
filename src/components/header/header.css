@@ -10,28 +10,34 @@ header{
   position: relative;
 }
 
-.header__container h3{
+.header__container h2{
   color: var(--color-CTA);
   font-weight: 100;
+  margin-top: 1rem;
+}
+
+.intro{
+  margin-top: 1rem;
 }
 
 .cta{
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
 }
 
 .cta a{
   color: var(--color-CTA-hover);
+
 }
 
 .arrow{
   text-align: center;
 }
 .arrow {
-  -moz-animation: bounce 3s infinite;
-  -webkit-animation: bounce 3s infinite;
-  animation: bounce 3s infinite;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
 }
 
 @keyframes bounce {
@@ -42,6 +48,6 @@ header{
     transform: translateY(0px);
   }
   60% {
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
 }

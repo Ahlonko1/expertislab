@@ -1,6 +1,10 @@
 import React from 'react'
 import "./solutions.css";
 import {HiOutlineArrowNarrowRight} from "react-icons/hi";
+import { Link } from "react-router-dom";
+// import Conseil from "./components/conseil/Conseil";
+// import Constat from "./components/constat/Constat";
+// import Expertise from "./components/expertise/Expertise";
 
 const Solutions = () => {
   return (
