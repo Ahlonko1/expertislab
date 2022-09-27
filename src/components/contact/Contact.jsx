@@ -3,6 +3,7 @@ import "./contact.css";
 import {MdLocationPin} from "react-icons/md";
 import {AiFillPhone} from "react-icons/ai";
 
+
 const Contact = () => {
   return (
     <section id='contact'>
@@ -20,7 +21,7 @@ const Contact = () => {
               <input type="text" name="nom" placeholder='Nom' required/>
             </div>
             <div className='deux'>
-              <input type="text" name="entreprise" placeholder='Entreprise' required/>
+              <input type="text" name="organisation" placeholder='Organisation' required/>
               <input type="text" name="objet" placeholder='Objet' required/>
             </div>
             <div className='trois'>

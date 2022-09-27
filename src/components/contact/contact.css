@@ -67,10 +67,4 @@ textarea{
     gap: 2rem;
   }
 
-  .un, .deux, .trois{
-    /* grid-template-columns: 1fr; */
-  }
-
-
-
 }

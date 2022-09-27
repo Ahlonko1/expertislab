@@ -6,6 +6,8 @@ import {FaStopwatch} from "react-icons/fa";
 import {GoLaw} from "react-icons/go";
 import {GiOnTarget} from "react-icons/gi";
 
+
+
 const Presentation = () => {
   return (
 
@@ -15,7 +17,7 @@ const Presentation = () => {
         <div className='expertises'>
           <h4>Expertis Lab est une société d’expertise 100% indépendante, créée courant 2011 par Bruce Bonnaure, Expert près les tribunaux.</h4>
           <h4>
-            Nous possédons <b>une grande expérience</b>, notamment en matière :
+            Nous possédons une grande expérience, notamment en matière :
 
             <ul>
               <li>

@@ -6,6 +6,7 @@ import {
   Redirect,
   } from "react-router-dom";
 
+
 import Contact from "./components/contact/Contact";
 import Equipe from "./components/equipe/Equipe";
 import Footer from "./components/footer/Footer";
@@ -16,6 +17,7 @@ import Solutions from "./components/solutions/Solutions";
 import Conseil from "./components/conseil/Conseil";
 import Expertise from "./components/expertise/Expertise";
 import Constat from "./components/constat/Constat";
+
 
 const App = () => {
   return (
@@ -31,6 +33,7 @@ const App = () => {
       <Contact />
       <Footer />
     </>
+
   )
 }
 
