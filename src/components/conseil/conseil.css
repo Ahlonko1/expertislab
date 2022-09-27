@@ -17,9 +17,24 @@
   margin-top: 2rem;
 }
 
+.conseil__kpis{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.conseil__kpis h3{
+  color: var(--color-CTA);
+}
+
+
 .enjeu__card{
   border-right: 1px solid;
   padding-right: 1rem;
+  border-radius: 1rem;
 }
 
 .accompagnement__card{
@@ -71,4 +86,16 @@
     gap: 2rem;
     margin-top: 2rem;
   }
+
+  .enjeu__card, .enjeu__card2{
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+
+  .conseil__kpis{
+    display: flex;
+    flex-direction: column;
+  }
+
 }

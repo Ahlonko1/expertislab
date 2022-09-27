@@ -16,21 +16,22 @@ const Presentation = () => {
           <h4>Expertis Lab est une société d’expertise 100% indépendante, créée courant 2011 par Bruce Bonnaure, Expert près les tribunaux.</h4>
           <h4>
             Nous possédons <b>une grande expérience</b>, notamment en matière :
+
             <ul>
               <li>
-                <p><MdOutlineCheck className='check'/> d’expertise amiable et technique</p>
+                <p><MdOutlineCheck className='check'/> <b>d’expertise amiable et technique</b></p>
               </li>
               <li>
-                <p><MdOutlineCheck className='check'/> d’assistance à contentieux</p>
+                <p><MdOutlineCheck className='check'/> <b>d’assistance à contentieux</b></p>
               </li>
               <li>
-                <p><MdOutlineCheck className='check'/> d’intervention d’audit technique et de sécurité</p>
+                <p><MdOutlineCheck className='check'/> <b>d’intervention d’audit technique et de sécurité</b></p>
               </li>
               <li>
-                <p><MdOutlineCheck className='check'/> d’assistance à constat et saisie-contrefaçon</p>
+                <p><MdOutlineCheck className='check'/> <b>d’assistance à constat et saisie-contrefaçon</b></p>
               </li>
               <li>
-                <p><MdOutlineCheck className='check'/> autre expertise indépendante des systèmes de vote par « internet »</p>
+                <p><MdOutlineCheck className='check'/> <b>autre expertise indépendante des systèmes de vote par « internet »</b></p>
               </li>
             </ul>
           </h4>

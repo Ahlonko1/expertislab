@@ -33,13 +33,16 @@ const Constat = () => {
           <h5>A l’issu des opérations de constat, l’ensemble des opérations techniques est systématiquement détaillé dans une note technique d’intervention et nous réalisons un inventaire dynamique facilitant l’accès et l’analyse des pièces saisies ou séquestrées.</h5>
         </div>
 
-        <div className='enjeu__card2'>
+        <div className='enjeu__card'>
           <h3>Maîtriser vos coûts</h3>
           <h5>Toutes nos prestations d’accompagnement se font sur la base d’une étude détaillée de l’ordonnance rendue par les magistrats. Dans une volonté de transparence envers vous et vos clients nous proposons une estimation du temps et des frais que nous pensons affecter à l’exécution de notre mission.</h5>
         </div>
       </div>
-      <h2>+600 accompagnements constats et saisies | +20 ans d'expérience | 4 experts à votre service</h2>
-
+      <div className='constat__kpis'>
+        <h3 className='kpi'>+600 accompagnements constats et saisies </h3>
+        <h3 className='kpi'>+20 ans d'expérience</h3>
+        <h3 className='kpi2'>4 experts à votre service</h3>
+      </div>
       <div className='constat__accompagnement'>
           <article className='accompagnement__card'>
             <VscSymbolMethod className='accompagnement__icon'/>

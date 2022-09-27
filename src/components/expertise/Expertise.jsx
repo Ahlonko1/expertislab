@@ -33,12 +33,16 @@ const Expertise = () => {
           <h5>Nos années d’expérience et la connaissances de la jurisprudence permettent à nos experts de vous accompagner durant tout votre processus électoral.
           Depuis les réflexions à mener en amont des élections (parcours d’authentification, procédure de réassort et code Défi) jusqu’à la gestion des aléas et leurs conséquences pouvant survenir en cours de vote.</h5>
         </div>
-        <div className='enjeu__card2'>
+        <div className='enjeu__card'>
             <h3>Fédérer autour de votre système de vote</h3>
             <h5>Nos travaux d’expertise permettent aux organisateurs de scrutin de fédérer autour de la solution de vote dématérialisée et d’instaurer un climat de confiance entre toutes les parties prenantes (organisation syndicales, Ressources Humaines, Direction des systèmes d’informations…).</h5>
         </div>
       </div>
-        <h2>+500 clients | +1000 votes expertisés | +10 ans d'expérience</h2>
+        <div className='expertise__kpis'>
+          <h3 className='kpi'>+500 clients</h3>
+          <h3 className='kpi'>+1000 votes expertisés</h3>
+          <h3 className='kpi2'>+10 ans d'expérience</h3>
+        </div>
       <div className='expertise__accompagnement'>
           <article className='accompagnement__card'>
             <VscSymbolMethod className='accompagnement__icon'/>

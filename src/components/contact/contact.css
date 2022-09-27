@@ -41,6 +41,12 @@ textarea{
   color: var(--color-CTA-hover);
 }
 
+.un, .deux, .trois{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
 
@@ -60,4 +66,11 @@ textarea{
     flex-direction: column;
     gap: 2rem;
   }
+
+  .un, .deux, .trois{
+    /* grid-template-columns: 1fr; */
+  }
+
+
+
 }

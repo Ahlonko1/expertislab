@@ -15,21 +15,21 @@ const Contact = () => {
           </div>
 
           <form action="">
-            {/* <div className='un'> */}
+            <div className='un'>
               <input type="text" name="prenom" placeholder='Prénom' required/>
               <input type="text" name="nom" placeholder='Nom' required/>
-            {/* </div> */}
-            {/* <div className='deux'> */}
+            </div>
+            <div className='deux'>
               <input type="text" name="entreprise" placeholder='Entreprise' required/>
               <input type="text" name="objet" placeholder='Objet' required/>
-            {/* </div> */}
-            {/* <div className='trois'> */}
+            </div>
+            <div className='trois'>
               <input type="text" name="email" placeholder='Email' required/>
               <input type="text" name="telephone" placeholder='Téléphone' required/>
-            {/* </div> */}
-            {/* <div className='quatre'> */}
+            </div>
+            <div className='quatre'>
               <textarea name="message" rows="7" placeholder='Message' required></textarea>
-            {/* </div> */}
+            </div>
             <button type='submit' className='btn btn-primary'>Envoyer</button>
           </form>
         </div>

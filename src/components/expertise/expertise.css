@@ -17,6 +17,19 @@
   margin-top: 2rem;
 }
 
+.expertise__kpis{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.expertise__kpis h3{
+  color: var(--color-CTA);
+}
+
 .enjeu__card{
   border-right: 1px solid;
   padding-right: 1rem;
@@ -46,7 +59,7 @@
 
 .expertise__faq h3{
   color: var(--color-CTA);
-  border-top: 2rem;
+  margin-top: 2rem;
 }
 
 .faq__item{
@@ -73,4 +86,16 @@
     gap: 2rem;
     margin-top: 2rem;
   }
+
+  .enjeu__card, .enjeu__card2{
+    border: 1px solid;
+    padding-right: 0rem;
+    padding: 1rem;
+  }
+
+  .expertise__kpis{
+    display: flex;
+    flex-direction: column;
+  }
+
 }
