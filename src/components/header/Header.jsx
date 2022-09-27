@@ -7,8 +7,7 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container" style={{
-  backgroundImage: `url(${background})`,
-  height:"100vh"
+  backgroundImage: `url(${background})`
 }}>
         <h1>Expertis Lab</h1><h2>cabinet d'expertise indépendant</h2>
         <div className='intro'>
