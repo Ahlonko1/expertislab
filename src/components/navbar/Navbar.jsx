@@ -2,45 +2,30 @@ import React from 'react';
 import "./navbar.css";
 import {AiOutlineMenu} from "react-icons/ai";
 import {AiOutlineClose} from "react-icons/ai";
-import Logo from "../../assets/logowhite.jpg"
+import Logo from "../../assets/LOGO-Elab_MARINE.jpg";
+import {useEffect, useState} from "react"
 
-// const menuBtn = document.querySelector("#menu-btn")
-// const closeBtn = document.querySelector("#close-btn")
-// const menu = document.querySelector("navbar .container ul")
-
-// menuBtn.addEventListener("click", () =>{
-//   menu.style.display = "block";
-//   menuBtn.style.display = "none";
-//   closeBtn.style.display = "inline-block";
-// })
-
-// closeBtn.addEventListener("click", () =>{
-//   menu.style.display = "none";
-//   menuBtn.style.display = "inline-block";
-//   closeBtn.style.display = "none";
-// })
-
-// const navItems = menu.querySelectorAll("li")
-
-// const changeActiveItem = () =>
-//   navItems.forEach(item => {
-//     const link = item.querySelector("a");
-//     link.classList.remove("active");
-//   })
-// }
-
-// navItems.forEach(item => {
-//   const link = item.querySelector("a");
-//   link.addEventListener("click", () => {
-//     changeActiveItem();
-//     link.classList.add("active");
-//   })
-
-// });
 
 const Navbar = () => {
+
+  const [show, setShow] = useState(true)
+  const controlNavbar = () =>{
+      if (window.scrollY > 90) {
+        setShow(false)
+      } else {
+        setShow(true)
+      }
+  }
+
+  useEffect(() => {
+      window.addEventListener('scroll', controlNavbar)
+      return () => {
+        window.removeEventListener('scroll', controlNavbar)
+      }
+  }, [])
+
   return (
-    <navbar>
+    <navbar className={`nav ${show && 'nav_ok'}`}>
       <div className='container2'>
         <img src={Logo} alt="" />
           <ul>

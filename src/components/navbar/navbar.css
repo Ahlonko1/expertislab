@@ -1,6 +1,6 @@
-navbar{
+.nav__ok{
   width: 100%;
-  height: 5rem;
+  height: 90px;
   background: var(--color-white);
   display: flex;
   align-items: center;
@@ -10,23 +10,23 @@ navbar{
   z-index:2;
 }
 
-navbar .container2{
+.container2{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
 
-navbar button{
+button{
   display: none;
 }
 
-navbar .container2 ul{
+.container2 ul{
   display: flex;
   height: 100%;
 }
 
-navbar .container2 ul li a{
+.container2 ul li a{
   height: 100%;
   width: 10rem;
   display: flex;
@@ -37,30 +37,32 @@ navbar .container2 ul li a{
   transition: var(--transition);
 }
 
-navbar .container2 ul li a:hover{
+.container2 ul li a:hover{
   color: var(--color-CTA);
 }
 
-navbar .container2 ul li a.active{
+.container2 ul li a.active{
   color: var(--color-CTA);
 }
-
-navbar .container2 img {
+.container2 img{
+  height: 90px;
+  width:220px
 }
+
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 
 @media screen and (max-width: 600px) {
 
-  navbar a{
+  a{
     margin-left: 1rem;
   }
 
-  navbar .container2{
+  .container2{
     width: 100%;
   }
 
-  navbar .container2 ul{
+  .container2 ul{
     position: fixed;
     top:0;
     flex-direction: column;
@@ -76,17 +78,17 @@ navbar .container2 img {
     width: 100%;
   }
 
-  navbar .container2 ul li a{
+  .container2 ul li a{
     width: 100%;
     justify-content: start;
     padding-left: 2rem;
   }
 
-  navbar .container2 ul li a:hover{
+  .container2 ul li a:hover{
     padding-left: 3rem;
   }
 
-  navbar button{
+  button{
     display: inline-block;
     cursor: pointer;
     background: transparent;
