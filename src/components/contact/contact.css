@@ -47,6 +47,34 @@ textarea{
   gap: 1rem;
 }
 
+.contact__infos{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.telephone{
+  height: 160px;
+  width:300px;
+  background: var(--color-white);
+  border: 1px solid;
+  color: var(--color-white);
+}
+
+.telephone .info-icon{
+  color: var(--color-bg);
+}
+
+.telephone h4{
+  color: var(--color-bg);
+  font-weight: 500;
+}
+
+.telephone{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {

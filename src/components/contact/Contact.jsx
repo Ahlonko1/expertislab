@@ -2,6 +2,7 @@ import React from 'react'
 import "./contact.css";
 import {MdLocationPin} from "react-icons/md";
 import {AiFillPhone} from "react-icons/ai";
+import Logo from "../../assets/FAVICON-Elab_BLANC.jpg"
 
 
 const Contact = () => {
@@ -11,8 +12,13 @@ const Contact = () => {
         <h1>NOUS CONTACTER</h1>
         <div className='contact__container'>
           <div className="contact__infos">
-            <h4><MdLocationPin className='info-icon'/> 30 rue Sedaine 75011 PARIS</h4>
-            <h4><AiFillPhone className='info-icon'/> 01 45 35 24 00</h4>
+            <div className='adresse'>
+              <h4><MdLocationPin className='info-icon'/> 30 rue Sedaine 75011 PARIS</h4>
+            </div>
+            <div className='telephone'>
+              <img src={Logo} alt="" />
+              <h4><AiFillPhone className='info-icon'/> 01 45 35 24 00</h4>
+            </div>
           </div>
 
           <form action="">
