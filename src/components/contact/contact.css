@@ -38,7 +38,7 @@ textarea{
 }
 
 .info-icon{
-  color: var(--color-CTA-hover);
+  color: var(--color-writing);
 }
 
 .un, .deux, .trois{
@@ -50,11 +50,11 @@ textarea{
 .contact__infos{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .telephone{
-  height: 160px;
+  height: 185px;
   width:300px;
   background: var(--color-white);
   border: 1px solid;
