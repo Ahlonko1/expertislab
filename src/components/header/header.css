@@ -1,17 +1,6 @@
-/* .image img{
-  width: 800px;
-} */
-
 .container.header__container{
   margin-top: 90px;
 }
-
-/* .intro{
-  margin-top: 1rem;
-  position: absolute;
-  top: 290px;
-  left: 390px;
-} */
 
 .header__container h1{
   color: var(--color-white);
