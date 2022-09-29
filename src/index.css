@@ -30,14 +30,6 @@
   --container-width-sm: 90%;
 }
 
-hmtl{
-  scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar{
-  display: none;
-}
-
 h1{
   color: var(--color-white);
 }

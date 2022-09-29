@@ -1,13 +1,17 @@
-.image img{
+/* .image img{
   width: 800px;
+} */
+
+.container.header__container{
+  margin-top: 90px;
 }
 
-.intro{
+/* .intro{
   margin-top: 1rem;
   position: absolute;
   top: 290px;
   left: 390px;
-}
+} */
 
 .header__container h1{
   color: var(--color-white);
@@ -15,12 +19,12 @@
 
 .header__container h2{
   color: var(--color-CTA);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .header__container h5{
   color: var(--color-white);
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .cta{
@@ -70,9 +74,14 @@
   }
 
   .image img{
-    width: 250px;
-    height: 180px;
-    border-radius: 1rem;
-    margin-bottom: 5rem;
+    display: none;
   }
+
+  .intro{
+    margin-top: 5rem;
+    /* position: relative;
+    top: 0px;
+    left: 0px; */
+  }
+
 }

@@ -20,6 +20,11 @@ footer a{
   text-align: end;
 }
 
+.container2 img{
+  height: 90px;
+  width:220px
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
 

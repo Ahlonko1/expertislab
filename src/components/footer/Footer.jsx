@@ -3,6 +3,7 @@ import "./footer.css"
 import Logo from "../../assets/LOGO-Elab_BLEU.jpg"
 
 
+
 const Footer = () => {
   return (
     <footer>

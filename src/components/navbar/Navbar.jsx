@@ -1,42 +1,32 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./navbar.css";
 import {AiOutlineMenu} from "react-icons/ai";
 import {AiOutlineClose} from "react-icons/ai";
 import Logo from "../../assets/LOGO-Elab_MARINE.jpg";
-import {useEffect, useState} from "react"
+import {Link} from "react-scroll";
 
 
 const Navbar = () => {
 
-  const [show, setShow] = useState(true)
-  const controlNavbar = () =>{
-      if (window.scrollY > 90) {
-        setShow(false)
-      } else {
-        setShow(true)
-      }
-  }
-
-  useEffect(() => {
-      window.addEventListener('scroll', controlNavbar)
-      return () => {
-        window.removeEventListener('scroll', controlNavbar)
-      }
-  }, [])
+  const [click, setClick] = useState(false)
+  const handleClick = () => setClick(!click)
 
   return (
-    <navbar className={`nav ${show && 'nav_ok'}`}>
+    <navbar>
       <div className='container2'>
+        <div className='logo'>
         <img src={Logo} alt="" />
-          <ul>
-            <li><a href="#" className='active'></a></li>
-            <li><a href="#presentation">QUI SOMMES-NOUS</a></li>
-            <li><a href="#solutions">NOTRE OFFRE</a></li>
-            <li><a href="#equipe">NOTRE EQUIPE</a></li>
-            <li><a href="#contact">NOUS CONTACTER</a></li>
-          </ul>
-          <button id='menu-btn'><AiOutlineMenu /></button>
-          <button id='close-btn'><AiOutlineClose /></button>
+        </div>
+        <ul className={click ? "nav__menu active" : 'nav__menu'}>
+          <li ><Link to="#" spy={true} smooth={true} offset={-100} duration={700} className='active'></Link></li>
+          <li className='nav__item'><Link to="presentation" spy={true} smooth={true} offset={-100} duration={700} className="nav__link" >QUI SOMMES-NOUS</Link></li>
+          <li className='nav__item'><Link to="solutions" spy={true} smooth={true} offset={-100} duration={700} className="nav__link" >NOTRE OFFRE</Link></li>
+          <li className='nav__item'><Link to="equipe" spy={true} smooth={true} offset={-100} duration={700} className="nav__link" >NOTRE EQUIPE</Link></li>
+          <li className='nav__item'><Link to="contact" spy={true} smooth={true} offset={-100} duration={700} className="nav__link">NOUS CONTACTER</Link></li>
+        </ul>
+        <div className='hamburger' onClick={handleClick}>
+          {click ? (<AiOutlineClose />) : (<AiOutlineMenu />)}
+        </div>
       </div>
     </navbar>
   )
