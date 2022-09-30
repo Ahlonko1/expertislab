@@ -9,7 +9,7 @@
   margin-top: 2rem;
   border: 0.2px solid var(--color-CTA);
   border-radius: 0.2rem;
-  /* padding: 1rem 0; */
+  padding: 2rem 2rem;
   transition: var(--transition);
 }
 
@@ -39,11 +39,12 @@
   .solutions{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .solution__card{
     margin-left: 2rem;
     margin-right: 2rem;
+    margin-top: 2rem;
   }
 }

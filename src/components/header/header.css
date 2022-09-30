@@ -1,5 +1,8 @@
 .container.header__container{
   margin-top: 90px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
 }
 
 .header__container h1{
@@ -9,11 +12,13 @@
 .header__container h2{
   color: var(--color-CTA);
   font-weight: 600;
+  margin-top: 1rem;
 }
 
-.header__container h5{
+.header__container h4{
   color: var(--color-white);
   font-weight: 300;
+  margin-top: 1rem;
 }
 
 .cta{
@@ -59,6 +64,7 @@
   .header__container{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
   }
 
@@ -68,9 +74,6 @@
 
   .intro{
     margin-top: 5rem;
-    /* position: relative;
-    top: 0px;
-    left: 0px; */
   }
 
 }
